@@ -19,6 +19,7 @@
     font-weight: 600;
     font-size: 16px;
     color: white;
+border: none;
 }
  .hero-image {
      position: absolute;
