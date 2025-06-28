@@ -1,0 +1,38 @@
+.content {
+  height: 550px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.img-fill {
+  width: 100%;
+  height: 100%;
+  object-fit: fill !important;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.container-data {
+  order: 1;
+}
+
+.container-img {
+  order: 2;
+}
+
+@media screen and (max-width : 768px) {
+  .container-data {
+    order: 2;
+  }
+
+  .container-img {
+    order: 1;
+  }
+}

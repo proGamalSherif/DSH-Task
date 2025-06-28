@@ -1,0 +1,12 @@
+ :root {
+   --primary-blue: #0d6efd;
+   --dark-bg: #2A2A2A;
+   --light-gray: #f8f9fa;
+ }
+
+ body {
+   font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+   overflow-x: hidden;
+   padding: 0 !important;
+   margin: 0 !important;
+ }
