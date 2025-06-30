@@ -18,6 +18,7 @@
    color: white;
    background-color: #999999;
    margin-left: 10px;
+   transition: all 0.5s ease-in-out;
  }
 
  .footer-container {
@@ -28,6 +29,10 @@
    padding-left: auto;
  }
 
+
+
+
+
  .stay-container {
    width: 255px;
    height: 40px;
@@ -37,6 +42,11 @@
    align-items: center;
    justify-content: end;
    padding-right: 10px;
+ }
+
+ .icon-container:hover {
+   cursor: pointer;
+   transform: scale(1.1);
  }
 
  .stay-input {
